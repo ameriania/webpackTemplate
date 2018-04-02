@@ -43,7 +43,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/Dev/EPF/Web/',
+    assetsPublicPath: '/',
 
     /**
      * Source Maps
