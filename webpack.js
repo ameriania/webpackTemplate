@@ -18,7 +18,7 @@ const extractLess = new ExtractTextPlugin({
 module.exports = function (env, argv) {
 	return {
 		entry: {
-			//“简称”:“路径”
+			/** “简称”:“路径” */
 			'demo': './demo.js'
 		},
 
@@ -28,7 +28,7 @@ module.exports = function (env, argv) {
 
 			chunkFilename: '[name].[chunkhash:8].js',
 
-			//dist为目标文件夹
+			/** dist为目标文件夹 */
 			path: path.resolve(__dirname, 'dist')
 		},
 
